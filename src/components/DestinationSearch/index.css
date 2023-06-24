@@ -1,0 +1,68 @@
+/* Write your CSS here */
+
+.bg-div {
+  display: flex;
+  justify-content: center;
+}
+
+.search-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 1140px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-div {
+    align-items: flex-start;
+  }
+  h1 {
+    margin-top: 98px;
+  }
+
+  .listitems {
+    justify-content: flex-start;
+  }
+}
+
+.search-input-div {
+  background-color: #f1f5f9;
+  display: flex;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 15px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 48px;
+  margin-bottom: 32px;
+  margin-left: 16px;
+  color: brown;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+
+.listitems {
+  padding: 0px;
+  list-style-type: none;
+  height: 500px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,15 @@
+/* Write your CSS here */
+
+img {
+  width: 30%;
+  border-radius: 5px;
+}
+
+p {
+  color: #0f172a;
+}
+
+li {
+  list-style-type: none;
+  width: 250x;
+}
